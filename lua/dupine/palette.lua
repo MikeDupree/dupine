@@ -1,4 +1,4 @@
-local options = require('rose-pine.config').options
+local options = require('dupine.config').options
 
 local variants = {
 	main = {

@@ -2,8 +2,8 @@ local M = {}
 
 ---@param options Config
 function M._load(options)
-	local h = require('rose-pine.util').highlight
-	local p = require('rose-pine.palette')
+	local h = require('dupine.util').highlight
+	local p = require('dupine.palette')
 
 	local groups = options.groups or {}
 	local maybe = {

@@ -1,4 +1,4 @@
-local config = require('rose-pine.config')
+local config = require('dupine.config')
 local M = {}
 
 ---@param options Config|nil
@@ -12,9 +12,9 @@ function M.colorscheme(options)
 	end
 
 	vim.opt.termguicolors = true
-	vim.g.colors_name = 'rose-pine'
+	vim.g.colors_name = 'dupine'
 
-	require('rose-pine.theme')._load(config.options)
+	require('dupine.theme')._load(config.options)
 end
 
 M.setup = config.setup
